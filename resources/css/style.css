@@ -1,27 +1,36 @@
 
+    /*navbar*/
 .navbarleft {
   display: inline-flex;
   overflow: hidden;
   border-bottom: 1px solid black;
   width: 100%;
-  padding: 0px;
+  padding-top: 10px;
   margin-left: -10px;
   margin-right: -10px;
   margin-top: -20px;
   position: fixed;
+  background-color: white;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
 
 }
 .navbarright {
   display: inline-flex;
   width: 100%;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-right: 100px;
   margin-left: -70px;
   justify-content: flex-end;
   align-items: center;
   position: fixed;
   z-index: 5;
-}
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
 }
 nav{
   display: inline-flex;
@@ -42,4 +51,82 @@ span{
   display: flex;
   align-self: center;
   padding: 10px 20px;
+}
+
+/*h1{
+  padding: 60px;
+}
+    /*navbar end*/
+
+    /*main content*/
+.content{
+  display: inline-flex;
+  border: 1px solid black;
+  margin-top: 70px;
+  justify-content: space-around;
+}
+p{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.large{
+  border: 1px solid black;
+  width: 630px;
+}
+
+#mainimg{
+  display: flex;
+  background-image: url("../images/main.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  padding: 0 40px;
+}
+.largebottom{
+  display: inline-flex;
+
+}
+#treesimg{
+  display: flex;
+  background-image: url("../images/trees.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+#cameramanimg{
+  display: flex;
+  background-image: url("../images/cameraman.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.medium{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+#cat{
+  display: flex;
+  background-image: url("../images/cat.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.small{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+}
+
+#cookie{
+  width: 240px;
+  height: 240px;
 }
