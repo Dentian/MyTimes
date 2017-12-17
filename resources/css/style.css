@@ -1,0 +1,45 @@
+
+.navbarleft {
+  display: inline-flex;
+  overflow: hidden;
+  border-bottom: 1px solid black;
+  width: 100%;
+  padding: 0px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -20px;
+  position: fixed;
+
+}
+.navbarright {
+  display: inline-flex;
+  width: 100%;
+  padding-top: 10px;
+  padding-right: 100px;
+  margin-left: -70px;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  z-index: 5;
+}
+}
+nav{
+  display: inline-flex;
+  align-items: center;
+}
+span{
+  padding: 0 5px;
+}
+#mytimes{
+  display: flex;
+  align-self: center;
+
+}
+
+#myt{
+  width: 70px;
+  height: 60px;
+  display: flex;
+  align-self: center;
+  padding: 10px 20px;
+}
